@@ -16,35 +16,24 @@ custom scss and few bootstrap variables overrides.
 
 - HTML
 
-- Boostrap 5 and Sass
+- bootstrap 5 and Sass
 
 ## Clone the repo and install dependencies
 
-Clone this link:
+# Clone this link
 
-```
-
-https://github.com/ebejmo/css-frameworks-ca.git 
-
-```
+<https://github.com/ebejmo/css-frameworks-ca.git>
 
 Open the css-frameworks branch
 
-### Run
+# Run
 
 You'll need node installed on your machine to run the project locally. Open the terminal at the projects root directory and insert the following commands:
 
-```
+# npm install
 
-npm install 
 bootstrap, sass, live server.
 
-```
-
-```
-
-npm run watch 
-
-```
+## npm run watch
 
 ### Feedback

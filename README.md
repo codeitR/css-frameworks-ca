@@ -37,6 +37,7 @@ You'll need node installed on your machine to run the project locally. Open the 
 ```
 
 npm install 
+bootstrap, sass, live server.
 
 ```
 

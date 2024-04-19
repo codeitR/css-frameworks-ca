@@ -11850,8 +11850,7 @@ textarea.form-control-lg {
   overflow: hidden;
   border-radius: 8px;
 }
-
-.card:before {
+.card .card:before {
   content: "";
   position: absolute;
   left: 0;
@@ -11876,13 +11875,8 @@ textarea.form-control-lg {
   transition: all 0.5s;
   transform-origin: bottom;
 }
-
-.card:hover::after {
+.card:after .card:hover::after {
   transform: scaleY(1);
-}
-
-.fonts {
-  font-size: 11px;
 }
 
 .social-list {
@@ -11891,7 +11885,6 @@ textarea.form-control-lg {
   justify-content: center;
   padding: 0;
 }
-
 .social-list li {
   padding: 10px;
   color: #8E24AA;

@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">HelloWorld</a>
+            <a class="navbar-brand" href="/">HelloWorld</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -36,7 +36,8 @@
             </div>
         </div>
     </nav>
-    <div class="container mt-4">
+
+    <main class="container mt-4">
         <div class="row">
             <div class="col-md-9">
                 <h2 class="mb-4">List of Posts</h2>
@@ -92,28 +93,29 @@
                 </div>
             </div>
         </div>
-    </div>
-    <hr class="border border-primary border-1 opacity-90 mx-sm-1">
-    <div class="container mx-1 mb-5 mt-5 d-flex justify-content-center">
-        <div class="col-md-9 offset-md-3">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Create New Post</h5>
-                    <form>
-                        <div class="mb-3">
-                            <label for="postTitle" class="form-label">Title</label>
-                            <input type="text" class="form-control" id="postTitle">
-                        </div>
-                        <div class="mb-3">
-                            <label for="postContent" class="form-label">Content</label>
-                            <textarea class="form-control" id="postContent" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+        </div>
+        <hr class="border border-primary border-1 opacity-90 mx-sm-1">
+        <div class="container mx-1 mb-5 mt-5 d-flex justify-content-center">
+            <div class="col-md-9 offset-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Create New Post</h5>
+                        <form>
+                            <div class="mb-3">
+                                <label for="postTitle" class="form-label">Title</label>
+                                <input type="text" class="form-control" id="postTitle">
+                            </div>
+                            <div class="mb-3">
+                                <label for="postContent" class="form-label">Content</label>
+                                <textarea class="form-control" id="postContent" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 
     <footer class=" container-fluid bg-body-tertiary text-center container-fluid mt-4">
         <div class="p-4">

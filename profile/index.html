@@ -25,11 +25,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
-                        <li class="nav-item mx-5">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/profile">Profile</a>
                         </li>
-                        <li class="nav-item mx-5">
+                        <li class="nav-item">
                             <a class="nav-link" href="/feed">Feed</a>
                         </li>
                     </ul>
@@ -42,7 +42,7 @@
         <div class="container mt-5">
             <div class="d-flex justify-content-center">
                 <div class="col-md-8">
-                    <div class="card p-4 py-5">
+                    <div class="card border-0 p-4 py-5">
                         <div class="mt-3 mb-4 d-flex justify-content-center">
                             <img src="../images/hacky.jpeg" class="rounded-circle" style="width: 200px;" />
                         </div>
@@ -54,14 +54,15 @@
                             <a href="" class="btn btn-outline-dark">Message Now</a>
                         </div>
                         <hr class="border border-primary border-1 opacity-90 mx-sm-1">
-                        <div class="d-flex justify-content-evenly text-center mt-1 mb-4">
-                            <div class="">
-                                <i class="bi bi-people"></i> Following:475
+                        <div class="row ">
+                            <div class="col-4 d-flex gap-1">
+                                <i class="bi bi-people"></i>
+                                <p>Following:471</p>
                             </div>
-                            <div class="vertical-line"></div>
-                            <a href="/feed/" class=""><i class="bi bi-signpost-fill"></i>Posts: 75</a>
-                            <div class="vertical-line"></div>
-                            <div class=""><i class="bi bi-people"></i>Followers: 8475
+                            <a href="/feed/" class="col-4 d-flex gap-1"><i class="bi bi-signpost-fill"></i>Posts:
+                                75</a>
+                            <div class="col-4 d-flex gap-1"><i class="bi bi-people"></i>
+                                <p>Followers: 8475</p>
                             </div>
                         </div>
                     </div>
@@ -71,39 +72,42 @@
     </main>
 
     <div class="container mb-6 mt-5">
+        <div class="col">
+            <h4 class="text-center">List of Posts</h4>
+        </div>
         <div class="row">
-            <div class="col">
-                <h4 class="text-center">List of Posts</h4>
+            <div class="card border-0 col-lg-3 col-md-4 col-sm-6 col-12">
+                <img src="../images/hacky.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="text-secondary">11 mins ago</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-            <div class="toast-header btn btn-outline-secondary mb-lg-4">
-                <img src="../images/hacky.jpeg" class="rounded me-2" style="width: 50px; border-radius: 50% !important;"
-                    alt="...">
-                <strong class="me-auto">Mr. Gold Zilla</strong>
-                <p class="col text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta modi
-                    labore et
-                    possimus natus doloribuscorrupti..</p>
-                <small class="text-muted mx-4">11 mins ago</small>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            <div class="card border-0 col-lg-3 col-md-4 col-sm-6 col-12">
+                <img src="../images/hacky.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="text-secondary">11 mins ago</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-            <div class="toast-header btn btn-outline-secondary mb-lg-4">
-                <img src="../images/hacky.jpeg" class="rounded me-2" style="width: 50px; border-radius: 50% !important;"
-                    alt="...">
-                <strong class="me-auto">Mr. Gold Zilla</strong>
-                <p class="col text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta modi
-                    labore et
-                    possimus natus doloribuscorrupti..</p>
-                <small class="text-muted mx-4">11 mins ago</small>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-header btn btn-outline-secondary mb-lg-4">
-                <img src="../images/hacky.jpeg" class="rounded me-2" style="width: 50px; border-radius: 50% !important;"
-                    alt="...">
-                <strong class="me-auto">Mr. Gold Zilla</strong>
-                <p class="col text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta modi
-                    labore et
-                    possimus natus doloribuscorrupti..</p>
-                <small class="text-muted mx-4">11 mins ago</small>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            <div class="card border-0 col-lg-3 col-md-4 col-sm-6 col-12">
+                <img src="../images/hacky.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="text-secondary">11 mins ago</p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
     </div>

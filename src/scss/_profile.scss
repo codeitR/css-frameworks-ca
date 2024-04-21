@@ -1,13 +1,23 @@
-// body {
-//     background: #eee;
-// }
+.social-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+
+    li {
+        padding: 10px;
+        color: var(--bs-border-me);
+        font-size: 19px;
+    }
+}
 
 .card {
     border: 0;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
-    // cursor: pointer;
+
+
 }
 
 .card:before {
@@ -17,77 +27,33 @@
     top: 0;
     width: 4px;
     height: 100%;
-    background-color: #E1BEE7;
+    background-color: var(--bs-code-color);
     transform: scaleY(1);
     transition: all 0.5s;
     transform-origin: bottom
 }
-
-.card:after {
-
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 4px;
-    height: 100%;
-    background-color: #8E24AA;
-    transform: scaleY(0);
-    transition: all 0.5s;
-    transform-origin: bottom
-}
-
-.card:hover::after {
-    transform: scaleY(1);
-}
-
-
-.fonts {
-    font-size: 11px;
-}
-
-.social-list {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    padding: 0;
-}
-
-.social-list li {
-    padding: 10px;
-    color: #8E24AA;
-    font-size: 19px;
-}
-
 
 .buttons button:nth-child(1) {
-    border: 1px solid #8E24AA !important;
-    color: #8E24AA;
+    border: 1px solid var(--bs-border-me);
+    color: var(--bs-border-me);
     height: 40px;
 }
 
 .buttons button:nth-child(1):hover {
-    border: 1px solid #8E24AA !important;
-    color: #fff;
+    border: 1px solid var(--bs-border-me);
+    color: var(--bs-light);
     height: 40px;
-    background-color: #8E24AA;
+    background-color: var(--bs-border-me);
 }
 
 .buttons button:nth-child(2) {
-    border: 1px solid #8E24AA !important;
-    background-color: #8E24AA;
-    color: #fff;
+    border: 1px solid var(--bs-border-me);
+    background-color: var(--bs-border-me);
+    color: var(--bs-light);
     height: 40px;
 }
 
-// .buttons button:nth-child(2):hover {
-//     border: 1px solid #8E24AA !important;
-//     color: #8E24AA;
-//     background: #fff;
-//     height: 40px;
-// }
-
 .vertical-line {
-    border: 1px solid #8E24AA;
+    border: 1px solid var(--bs-border-me);
 
 }

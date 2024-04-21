@@ -1,7 +1,3 @@
-// body {
-//     background: #eee;
-// }
-
 .social-list {
     display: flex;
     list-style: none;
@@ -10,41 +6,54 @@
 
     li {
         padding: 10px;
-        color: #8E24AA;
+        color: var(--bs-border-me);
         font-size: 19px;
     }
 }
 
+.card {
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
 
+
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: var(--bs-code-color);
+    transform: scaleY(1);
+    transition: all 0.5s;
+    transform-origin: bottom
+}
 
 .buttons button:nth-child(1) {
-    border: 1px solid #8E24AA !important;
-    color: #8E24AA;
+    border: 1px solid var(--bs-border-me);
+    color: var(--bs-border-me);
     height: 40px;
 }
 
 .buttons button:nth-child(1):hover {
-    border: 1px solid #8E24AA !important;
-    color: #fff;
+    border: 1px solid var(--bs-border-me);
+    color: var(--bs-light);
     height: 40px;
-    background-color: #8E24AA;
+    background-color: var(--bs-border-me);
 }
 
 .buttons button:nth-child(2) {
-    border: 1px solid #8E24AA !important;
-    background-color: #8E24AA;
-    color: #fff;
+    border: 1px solid var(--bs-border-me);
+    background-color: var(--bs-border-me);
+    color: var(--bs-light);
     height: 40px;
 }
 
-// .buttons button:nth-child(2):hover {
-//     border: 1px solid #8E24AA !important;
-//     color: #8E24AA;
-//     background: #fff;
-//     height: 40px;
-// }
-
 .vertical-line {
-    border: 1px solid #8E24AA;
+    border: 1px solid var(--bs-border-me);
 
 }
